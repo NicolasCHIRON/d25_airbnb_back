@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/ZeddBox/faker_fr.git
+  revision: 21b9945f46cd768cd38470d8f4a43d48a558f236
+  branch: master
+  specs:
+    faker (2.11.0)
+      i18n (>= 1.6, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -180,6 +188,7 @@ GEM
       sprockets (>= 3.0.0)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
+    table_print (1.5.7)
     thor (1.2.1)
     timeout (0.3.2)
     turbo-rails (1.4.0)
@@ -212,6 +221,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  faker!
   importmap-rails
   jbuilder
   pg (~> 1.1)
@@ -220,6 +230,7 @@ DEPENDENCIES
   selenium-webdriver
   sprockets-rails
   stimulus-rails
+  table_print
   turbo-rails
   tzinfo-data
   web-console

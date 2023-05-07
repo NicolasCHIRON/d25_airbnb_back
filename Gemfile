@@ -21,6 +21,9 @@ gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 
+gem 'faker', :git => 'https://github.com/ZeddBox/faker_fr.git', :branch => 'master'
+gem "table_print"
+
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
